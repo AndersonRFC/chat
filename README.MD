@@ -5,15 +5,15 @@ O ChatNTS é um projeto pessoal desenvolvido para conectar pessoas em um ambient
 </p>
 
 <p align="center">
-  <a href="#-Tecnologias Utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias-Utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Em Desenvolvimento">Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Em-Desenvolvimento">Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Testes">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Em Expansão">Expansão</a>
+  <a href="#-Em-Expansão">Expansão</a>
 </p>
 
 <p align="center">
-  <img alt="ChatNTS" src="preview.jpg" width="50%">
+  <img alt="ChatNTS" src="./src/images/preview.jpg" width="50%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas

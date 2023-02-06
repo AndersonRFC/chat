@@ -1,0 +1,203 @@
+.home {
+    background-color: #181a1b;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.view {
+    width: 400px;
+    height: 450px;
+}
+
+.spaceEntrie {
+    width: 400px;
+    height: 50px;
+    background-color: #252829;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.spaceChat::-webkit-scrollbar {
+    width: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.spaceChat::-webkit-scrollbar-thumb {
+    background-color: rgb(120, 200, 0);
+    border-radius: 5px;
+}
+
+.spaceChat {
+    width: 400px;
+    height: 400px;
+    background-color: #393e3f;
+    overflow-y: auto;
+    padding-right: 10px;
+
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#entrie {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid greenyellow;
+    width: 300px;
+    color: greenyellow;
+}
+
+#entrie:focus {
+    outline: none;
+}
+
+.profileArea {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.profileName {
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+}
+
+.messageArea {
+    margin-left: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.messageText {
+    margin-bottom: 5px;
+}
+
+
+.signUpView {
+    width: 400px;
+    height: 450px;
+    background-color: #393e3f;
+    background: linear-gradient(180deg, rgb(45,49,51) 0%, rgba(28, 33, 36,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.campo{
+    position: relative;
+}
+
+input[type="text"]{
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+input[type="text"]:focus ~ label,
+input[type="text"]:valid ~ label,
+input[type="text"]:hover ~ label{
+    top: -16px;
+    font-size: 12px;
+    color: rgb(0, 255, 0);
+}
+
+label{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+
+button{
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color:white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus{
+    outline: none;
+    color: rgb(0, 255, 0);
+    background-color: #181a1b;
+}
+
+.page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(42, 25, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.page:hover{
+    background-color: rgb(67, 37, 114);
+}
+
+.pages{
+    display: flex;
+}
+
+.loginView{
+    width: 400px;
+    height: 450px;
+    background-color: #393e3f;
+    background: linear-gradient(180deg, rgb(45,49,51) 0%, rgba(28, 33, 36,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notificacao{
+    background-color: rgb(65, 65, 65);
+    padding: 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+}

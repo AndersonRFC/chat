@@ -49,7 +49,7 @@ O ChatNTS ainda está em desenvolvimento e o foco inicial é a funcionalidade de
 
 O ChatNTS foi testado por usuários em diferentes locais do país, onde foi usado um computador como hospedagem e a tecnologia Nrok como ponte entre o servidor e os usuários, que estavam localizados em diferentes estados do Brasil.
 
-Em expansão
+Projeto Online: http://chatntsb.epizy.com/
 
 ## 🐱‍🏍 Em Expansão
 
